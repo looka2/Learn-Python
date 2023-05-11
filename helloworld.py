@@ -85,3 +85,26 @@ list4.insert(1, "2")
 list4.insert(4, "5")
 print(list4)
 
+def myfunc():
+    a = 6
+    b = 1
+    c = 18
+    d = a+b
+    e = d*c
+    print(e)
+myfunc()
+
+def myfunc():
+    x = "My"
+    y = "brain"
+    z = "hurts"
+    print(x,y,z)
+myfunc()
+
+
+
+def wiskunde():
+    m = 5
+    l = 4*m+11
+    print(l)
+wiskunde()
