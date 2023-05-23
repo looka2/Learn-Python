@@ -108,3 +108,6 @@ def wiskunde():
     l = 4*m+11
     print(l)
 wiskunde()
+
+def test()
+    pip3 install arcade
