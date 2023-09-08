@@ -20,3 +20,9 @@ print("")
 
 print(f'{text}{s}{date}')
 
+from datetime import datetime
+
+now = datetime.now()
+
+dt_n = now.strftime("%d-%m-%Y %H:%M:%S")
+print("Uitgevoerd op :", dt_n)
