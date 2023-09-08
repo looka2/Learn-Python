@@ -10,6 +10,7 @@ a = int(input("Wat is het totaal? "))
 
 b = int(input("Wat is de hoeveelheid? "))
 
+# noinspection PyRedundantParentheses
 c = (360 / a) * (b)
 
 print("")
@@ -24,5 +25,5 @@ from datetime import datetime
 
 now = datetime.now()
 
-dt_n = now.strftime("%d-%m-%Y %H:%M:%S")
-print("Uitgevoerd op :", dt_n)
+dt_n = now.strftime("%Y-%m-%d %H:%M:%S")
+print("Uitgevoerd op",dt_n)
