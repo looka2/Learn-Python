@@ -4,7 +4,7 @@ date = datetime.date(2023, 9, 8)
 
 s = " "
 
-text = "Gemaakt door Luka op de datum"
+text = "Gemaakt door Luka op"
 
 a = int(input("Wat is het totaal? "))
 
