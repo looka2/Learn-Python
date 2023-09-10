@@ -80,6 +80,8 @@ print(list3[2])
 
 if "Xiaomi" in list3:
   print("Yes, 'Xiaomi' is in list3")
+if "Xiaomi" not in list3:
+    print("no Xiaomi")
 
 list4.insert(1, "2")
 list4.insert(4, "5")

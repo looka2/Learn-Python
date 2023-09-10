@@ -1,6 +1,6 @@
 import datetime
 
-date = datetime.date(2023, 9, 8)
+datewis1 = datetime.date(2023, 9, 8)
 
 s = " "
 
@@ -19,7 +19,7 @@ print("de hoek is",c,"graden")
 
 print("")
 
-print(f'{text}{s}{date}')
+print(f'{text}{s}{datewis1}')
 
 from datetime import datetime
 
